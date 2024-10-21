@@ -16,21 +16,21 @@ class Trainer:
         self.scheduler = scheduler # 排程器(用於動態調整學習率)
         self.early_stopping = early_stopping # 防止模型在驗證集上惡化
         
-        # 判斷裝置環境
+        # 若沒輸入自動判斷裝置環境
         if device is None:
             self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         else:
             self.device = device
 
         # 宣告訓練用模型
-        self.model = model
+        self.model = model.to(self.device)
 
         # 模型儲存名稱
         self.save_name = save_name
 
     def train_epoch(self, epoch):
         train_loss = 0
-        train_pbar = tqdm(self.train_loader, position=0, leave=True)   # 進度條
+        train_pbar = tqdm(self.train_loader, position=0, leave=True)  # 進度條
         
         self.model.train() 
         for input_datas in train_pbar:
