@@ -3,7 +3,7 @@
 <a href="https://www.tenlong.com.tw/products/9786263339682">
   <img src="https://cf-assets2.tenlong.com.tw/products/images/000/223/964/original/9786263339682_bc.jpg?1728464342" height="30%" width="30%" alt="書籍封面">
 </a>
-<p>購買連結：<a href="https://www.tenlong.com.tw/products/9786263339682">前往購買</a>(只有初版是軟精裝要買要快)</p>
+<p>購買連結：<a href="https://www.tenlong.com.tw/products/9786263339682">前往購買</a></p>
 
 # 內容簡介
 本書內容改編自第15屆iThome鐵人賽AI & Data組佳作系列文章《30天內成為NLP大師：掌握關鍵工具和技巧》。本書從基礎理論到實務應用，詳細介紹了自然語言處理的發展過程及相關技術，且循序漸進解釋了AI中的數學原理，如線性代數、矩陣相乘及機率，並將這些理論應用於深度學習模型中。
@@ -31,3 +31,9 @@
 
 # 本書榮譽
 * 無
+
+# 我的其他著作
+<a href="https://www.tenlong.com.tw/products/9786263336025?list_name=r-zh_tw">
+  <img src="https://cf-assets2.tenlong.com.tw/products/images/000/194/264/original/9786263336025.jpg" height="30%" width="30%" alt="書籍封面">
+</a>
+<p>購買連結：<a href="https://www.tenlong.com.tw/products/9786263336025?list_name=r-zh_tw">前往購買</a>(只有初版是軟精裝要買要快)</p>
